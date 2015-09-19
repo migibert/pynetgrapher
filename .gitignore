@@ -1,0 +1,8 @@
+.cache
+dist
+venv
+.idea
+.coverage
+*.pyc
+*.egg-info/*
+.vagrant
