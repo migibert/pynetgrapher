@@ -20,6 +20,11 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=dependencies,
+    entry_points={
+        'console_scripts': [
+            'pynetgrapher = pynetgrapher.pynetgrapher:main',
+        ],
+    },
     classifiers=[
         'Environment :: Console',
         'Intended Audience :: Developers',
